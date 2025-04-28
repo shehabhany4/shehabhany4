@@ -298,7 +298,7 @@ h1 {
 
 
 
-@media (min-width:300px) and (max-width:700px) {
+@media (min-width:200px) and (max-width:700px) {
     .logo {
         width: 40%;
     }
