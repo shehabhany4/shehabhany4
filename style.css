@@ -415,7 +415,7 @@ h1 {
     }
 }
 
-@media (min-width:320px) and (max-width:1000px) {
+@media (min-width:320px) and (max-width:767px) {
     .logo {
         margin-left: 20px;
         width: 50%;
@@ -478,4 +478,39 @@ h1 {
             width: 80%;
         }
     }
+}
+@media (min-width:768px) and (max-width:1120px){
+    .one{
+        height: 110vh;
+    }
+    .c1{
+        height:180vh ;
+        background-color: aqua;
+       .pro{
+        li{
+            img{
+                width: 320px;
+            }
+        }
+       }
+    }
+
+}
+@media (min-width:1120px) and (max-width:1260px){
+    .one{
+        height: 110vh;
+    }
+    .c1{
+        height:105vh ;
+        background-color: rgb(0, 0, 255);
+       .pro{
+        li{
+            img{
+                width: 287px;
+                margin: -10.166px;
+            }
+        }
+       }
+    }
+
 }
