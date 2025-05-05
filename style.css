@@ -409,11 +409,6 @@ h1 {
     }
 }
 
-.en{
-    a{
-        color: aqua;
-    }
-}
 
 @media (min-width:320px) and (max-width:926px) {
     .logo {
