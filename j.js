@@ -10,6 +10,8 @@ let si = document.getElementById('si');
 let pr = document.getElementById('pr');
 let pi = document.getElementById('pi');
 let cwm = document.getElementById('cwm');
+document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("y").textContent = new Date().getFullYear();
 
 bars.onclick = function () {
     if (menu.style.display === 'flex') {
