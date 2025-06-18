@@ -555,8 +555,11 @@ h1 {
             width: 80%;
         }
     }
+    .creti{
+        height: 63vh;
+    }
        .adver {
-        width: 75% !important;
+        width: 47% !important;
        
     }
 }
@@ -576,7 +579,6 @@ h1 {
                 }
             }
         }
-    }
 }
 
 @media (min-width:1120px) and (max-width:1260px) {
@@ -595,6 +597,9 @@ h1 {
                 }
             }
         }
+    }
+    .creti{
+        height: 80vh;
     }
 
 }
