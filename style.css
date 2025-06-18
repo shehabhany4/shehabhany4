@@ -266,7 +266,62 @@ h1 {
         }
     }
 }
-
+.creti{
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 30px;
+    background-color: rgba(165, 165, 165, 0.091);
+    border: .2px solid rgba(158, 158, 158, 0.24);
+    border-radius: 30px;
+     p {
+        font-weight: bold;
+        color: rgb(116, 21, 205);
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        text-shadow: 2px 1px violet;
+    }
+    .adver{
+    position: relative;
+    width: 480px;
+    margin: 10px;
+    overflow: hidden;
+}
+.adver:hover .fa-solid{
+ display: block;
+}
+#pp1,#pp2,#pp3,#pp4,#pp5,#pp6,#pp7,#pp8{
+        width: 100%;
+        display: none;
+}
+#b1{
+    position:absolute;
+    top: 47%;
+    left: 1%;
+    cursor: pointer;
+}
+#b2{
+    position:absolute;
+    top: 47%;
+    right: 1%;
+    cursor: pointer;
+}
+.fa-solid{
+    font-size: 30px;
+    color:black;
+    display: none;
+}
+.fa-solid:hover{
+    transform: scale(1.2);
+    
+}
+}
 .c2 {
     width: 100%;
     height: 80vh;
